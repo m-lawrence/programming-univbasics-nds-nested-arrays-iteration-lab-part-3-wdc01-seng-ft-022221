@@ -13,6 +13,6 @@ end
     end
     row_index += 1
 end
-final_string.join(" ")
+final_string = final_string.join(" ")
 final_string
 end
