@@ -1,9 +1,11 @@
 def join_nested_strings(src)
   row_index = 0 
+  one_string = ""
   while row_index < src.length do
     element_index = 0 
     while element_index < src[row_index].length do 
-      if 
+      if src[row_index][element_index].class = String do 
+        
     end
       element_index += 1 
     end
