@@ -7,6 +7,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].class = String do 
         src[row_index][element_index].join(final_string + " ")
     end
+  end
       element_index += 1 
     end
     row_index += 1
